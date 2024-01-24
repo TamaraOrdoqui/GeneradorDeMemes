@@ -28,8 +28,12 @@ En esta sección podras editar la imagen de tu meme, otorgandole filtros.
 ![Filtros](imagenes/darkmode-img.png)
 ![Filtros](imagenes/lightmodeimg.png)
 
-### Panel Edicion Textp :
+### Panel Edicion Text :
+
+
 Podras editar el texto que le coloques a tu meme!
+
+
 ![EditText](imagenes/darkmode-text.png)
 ![EditText](imagenes/lightmodetext.png)
 
