@@ -72,4 +72,30 @@
                         </select>
                     </div>
                 </div>
-        
+        <!-- CONTROL FILTERS-->
+                <div class="filter_container">
+                    <form>
+                        <h3 class="title_Edits">FILTROS</h3>
+                        <label for="bright">BRILLO</label>
+                        <input type="range" name="bright" class="rangeSlider" id="bright" min="0" max="1" value="1" step="0.1">
+                        <label for="opacity">OPACIDAD</label>
+                        <input type="range" name="opacity" class="rangeSlider" id="opacity" min="0" max="1" value="1" step="0.1">
+                        <label for="contrast">CONTRASTE</label>
+                        <input type="range" name="contrast" class="rangeSlider" id="contrast" min="100" max="1000" value="100">
+                        <label for="blur">DESENFOQUE</label>
+                        <input type="range" name="blur" class="rangeSlider" id="blur" min="0" max="10" value="0" step="0.1">
+                        <label for="gray-scale">ESCALA DE GRISES</label>
+                        <input type="range" name="gray-scale" class="rangeSlider"id="gray-scale" min="0" max="100" value="0">
+                        <label for="sepia">SEPIA</label>
+                        <input type="range" class="rangeSlider" name="sepia" id="sepia" min="0" max="100" value="0">
+                        <label for="hue">HUE</label>
+                        <input type="range" name="hue" class="rangeSlider" id="hue" min="0" max="360" value="0">
+                        <label for="saturation">SATURACIÓN</label>
+                        <input type="range" name="saturation" class="rangeSlider" id="saturation" min="100" max="1000" value="100" step="10">
+                        <label for="negative" class="label" >NEGATIVO</label>
+                        <input type="range" name="negative" class="rangeSlider" id="negative" min="0" max="1" value="0" step="0.1">
+            <!--BUTTON RESET FILTERS-->
+                        <button type="button" class="resetFilters" id="btnReset">RESTABLECER FILTROS</button> 
+                    </form>
+                </div>
+            </section>
