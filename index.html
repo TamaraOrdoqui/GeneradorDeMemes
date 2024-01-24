@@ -37,3 +37,39 @@
             <button id="buttonRest">Restablecer</button>
         </main>
 <!-- CONTAINER PANEL CONTROL-->
+<!-- BUTTON CLOSE PANEL -->
+        <button class="panel_close_button" id="panel_close_button" aria-label="Cerrar panel">
+            <i class="fas fa-times"></i>
+        </button>
+<div class="aside_Container">
+        <aside class="panel_changes" id="panel">
+<!-- PANEL CHANGES IMAGEN-->
+            <section class="panel-imagen column-changes" id="panel-imagen">
+                <h2 class="titlePanel_ImgTxt">IMAGEN</h2>
+                <div>
+                    <div id="imageContainer">
+                    <h3 class="title_Edits">URL</h3>
+                    <input type="text" class="url-input" id="url-img" aria-label="URL de la imagen">
+
+                    <label for="fileInput"></label>
+                    <input title="files" name="file" type="file" id="fileInput"></div>
+                   
+
+                    <h3 class="title_Edits">FONDO</h3>
+                    <div class="background_Div">
+                        <div class="btn-Color">
+                            <input type="color" id="idcolor" value="#000000" aria-label="Color de texto">
+                            <span id="img-Color">#000000</span>
+                        </div>
+                        
+                        <select id="mix" class="style_background" aria-label="mix de fondo de imagen">
+                            <option value="unset">Ninguno</option>
+                            <option value="lighten">Aclarar</option>
+                            <option value="darken">Oscurecer</option>
+                            <option value="difference">Diferencia</option>
+                            <option value="luminosity">Luminosidad</option>
+                            <option value="multiply">Multiplicar</option>
+                        </select>
+                    </div>
+                </div>
+        
