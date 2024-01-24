@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b6db0ee03e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Generador de Memes</title>
+</head>
+
+<body class="">
+<!-- HEADER -->
+    <header class="header">
+        <h1>GENERADOR DE MEMES</h1>
+        <nav class="container-button">
+           <button class="button-nav" id="button-text-img"  title="Editar Imagen"><i class="fa-solid fa-image"></i> IMAGEN </button>
+           <button class="button-nav" id="button-text-text" title="Editar Texto"><i class="fa-solid fa-font"></i> TEXTO </button>
+           <button title="Modo" class="button-nav btnDark" id="button-modo-dark"><i class="far fa-lightbulb button-icon-text"></i></button>
+        </nav>
+    </header>
+<!-- CONTAINER -->
+    <div class="container">
+        <main class="container-meme">
+            <div class="box-meme" id="box-meme">
+                <p id="topText" class="textTop_class">TOP TEXT</p>
+                <div id="box_img"
+                aria-label="Imagen de meme">
+                </div>
+                <p id="bottomText"
+                class="textBottom_class">BOTTOM TEXT</p> 
+            </div>
+            <!-- Boton descarga meme-->
+            <button type="button" class="button button_download" id="button_download"><i class="fas fa-download button-icon-text"
+            aria-hidden="true"></i> Descargar Meme </button>
+
+            <button id="buttonRest">Restablecer</button>
+        </main>
+<!-- CONTAINER PANEL CONTROL-->
