@@ -19,3 +19,18 @@ else
     body.classList.remove('theme-light');
 }
 
+// BOTON DE DESCARGA MEME
+const btnDescarga = document.getElementById('button_download');
+
+btnDescarga.addEventListener('click', () => {
+    domtoimage.toBlob(document.getElementById('box-meme'))
+        .then(blob => {
+            saveAs(blob, 'mi-meme.png');
+            return new Promise(resolve => setTimeout(resolve, 2000)); // Espera 2 segundos
+        })
+        .then(() => {
+            window.location.reload(); // Recarga la página
+        });
+});
+
+
