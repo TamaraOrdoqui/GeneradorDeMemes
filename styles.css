@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* CLASES SOLO DE CSS PARA CAMBIAR DE MODO EN JAVASCRIPT */
+
+.theme-light{
+   background-color: white;
+   
+    
+}
+.theme-light .btn-primary{
+    background-color: #E5D4FF;
+    font-size: 10px;
+    color: #41315f;
+    padding: 8px;
+  margin-left: 5px;
+}
+.theme-light .header{
+    background-color:#DCBFFF;
+}
+.theme-light h1, h2, h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+.theme-light .button-nav{
+    background-color: #E5D4FF;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    border-style: none;
+}
+.theme-light .container{
+    background-size:cover;
+    background-repeat: no-repeat;
+
+} 
+
+.theme-light .box-meme{
+    border: 1px solid #A77979;
+    object-fit: cover;
+    object-position: center left;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff; 
+    max-width: 90%;
+    max-height: 90%;
+    font-size: 30px;
+    font-weight: 600;
+    background-repeat: no-repeat;
+}
+
+.theme-light .btn-primary:hover{
+    background-color: #A77979;
+    font-size: 10px;
+    color: #41315f;
+    padding: 8px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.theme-light .column-changes{
+    background-color: #c9c3c3;
+}
+.theme-light input{
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 12px;
+}  
+.theme-light textarea, .theme-light select{
+    background-color: #fff;
+    color: #000;
+}
+.theme-light .font-select{
+    background-color: #fff;
+}
+.theme-light .btn-Color{
+    background-color: #fff;
+    color: #A77979;
+    font-weight: 600;
+}
+.theme-light .control-checkbox{
+    color: #A77979;
+    font-weight: 900;
+    cursor: pointer;
+}
+.theme-light .button-nav:hover{
+    background-color: #A77979;
+    cursor: pointer;
+}
+.theme-light textarea:hover{
+    background-color: #A77979;
+    color:#fff;
+    cursor: pointer;
+}
+.theme-light select:hover{
+    background-color: #A77979;
+    color:#fff;
+    cursor: pointer;
+}
+
+
+.theme-light .font-select:hover{
+    background-color: #A77979;
+    color:#fff;
+    cursor: pointer;
+}
+.theme-light .btn-Color:hover{
+    background-color:#A77979;
+    color: #fff;
+    cursor: pointer;
+}
+
+.theme-light .input-color:hover{
+    background-color: #A77979;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+}
+.theme-light .panel-control-input:hover{
+    background-color: #A77979;
+    color:#fff;
+    cursor: pointer;
+}
+.theme-light .control-input:hover{
+    background-color: #A77979;
+    color:#fff;
+    cursor: pointer;
+}
+
+.theme-light #buttonRest{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 12px 12px;
+    height: auto;
+    background-color: #c9c3c3;
+    color:#fff;
+    border: #A77979;
+    width: 150px;
+    text-align: center;
+    align-self: center;
+}
+.theme-light #buttonRest:hover{
+    background-color:#A77979 ;
+    color: white;
+    cursor: pointer;
+}
+.theme-light .textTop_class{
+    padding: 15px;
+    background-color: #c9c3c3;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0%;     
+    font-size: 25px;
+}
+
+.theme-light .textBottom_class{
+    padding: 15px;
+    background-color: #c9c3c3;
+    color: #fff;
+    margin-bottom: 0;
+    position:relative; 
+    font-size: 25px;  
+}
+
+.theme-light #box_img{
+    width: 100%;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.theme-light .button_download{
+    margin-top: 10px;
+    padding: 12px 12px;
+    height: auto;
+    background-color: #c9c3c3;
+    color:#fff;
+    border: #A77979;
+    width: 150px;
+    text-align: center;
+    align-self: center;
+}
+.theme-light .button_download:hover{
+    background-color: #A77979;
+}
+
+.theme-light footer {
+    background-color: #c9c3c3;
+}
+
+.theme-light .footer_logos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.theme-light .logo i {
+    color: #3d1e35;
+    font-size: 1.25rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-style: dotted;
+    border-radius: 60px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.theme-light .p_footer p {
+    padding-block: 5px;
+    text-align: center;
+
+}
+
+
