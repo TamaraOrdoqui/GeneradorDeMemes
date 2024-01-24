@@ -99,3 +99,98 @@
                     </form>
                 </div>
             </section>
+<!--PANEL CHANGE TEXT-->
+            <section class="panel-txt column-changes" id="panel-txt">
+                <h2 class="titlePanel_ImgTxt">TEXTO</h2>
+                <div>
+                    <h3 class="title_Edits">TEXTO SUPERIOR</h3>
+                    <textarea id="inputTop" aria-label="Texto superior" name="texto superior">TOP TEXT</textarea>
+                    <div class="control-checkbox">
+                        <input type="checkbox" id="not-top"><label for="not-top">Sin texto superior</label>
+                    </div>
+                    <h3 class="title_Edits">TEXTO INFERIOR</h3>
+                    <textarea id="inputBottom" aria-label="Texto Inferior" name="texto inferior">BOTTOM TEXT</textarea>
+                    <div class="control-checkbox">
+                        <input type="checkbox" id="not-bottom"><label for="not-bottom">Sin texto inferior</label>
+                    </div>
+<!-- FONTS STYLES-->
+                    <div class="control">
+                        <h3 class="title_Edits">FUENTE</h3>
+                        <select name="fontsStyles" class="font-select" onchange="cambioFuente (this);" id="select_font" aria-label="Estilos de fuente">
+                            <option value="Arial" selected="selected">Arial</option>
+                            <option value="Arial Black">Arial Black</option>
+                            <option value="American Typewriter">American Typewriter</option>
+                            <option value="fantasy">Fantasy</option>
+                            <option value="Grenze Gotisch">Grenze Gotisch</option>
+                            <option value="Comic Sans MS">Comic Sans MS</option>
+                            <option value="Helvetica">Helvetica</option>
+                            <option value="Impact">Impact</option>
+                            <option value="Verdana">Verdana</option>
+                            <option value="Times New Roman">Times New Roman</option>
+                        </select>
+                    </div>
+                    <div class="control_font">
+                        <input type="number" name="FontSize" aria-label="Tamaño de fuente" class="panel-control-input" id="text-size-input" min="12" max="70"
+                        value="40">
+                        <div class="btn-aling">
+                            <button id="btn-text-left-align"
+                            aria-label="Alinear texto a la izquierda"><i class="fas fa-align-left" aria-hidden="true"></i></button>
+                            <button id="btn-text-center-align"
+                            aria-label="Alinear texto al centro"><i class="fas fa-align-center" aria-hidden="true"></i></button>
+                            <button id="btn-text-right-align"
+                            aria-label="Alineat texto a la derecha"><i class="fas fa-align-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                    <div class="color_txt">
+                        <div class="idcolor">
+                            <h3 class="title_Edits">COLOR</h3>
+                            <div class="btn-Color">
+                                <input type="color" id="idcolor2" value="#000000" aria-label="Color de texto">
+                                <span id="txt-color">#000000</span>
+                            </div>
+                        </div>
+                        <div class="idcolor">
+                            <h3 class="title_Edits">FONDO</h3>
+                            <div class="btn-Color">
+                                <input type="color" id="idcolor3" value="#FFFFFF" aria-label="Color de fondo">
+                                <span id="fondo-color">#FFFFFF</span> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control-checkbox">
+                        <input type="checkbox" id="not-background"><label for="not-background">Fondo
+                          transparente</label>
+                    </div>
+                </div>
+                <div>
+                     <!-- Contorno-->
+                    <h3 class="title_Edits">CONTORNO</h3>
+                    <div class="btn-group" >
+                        <button type="button" class="btn-primary" id="ninguno">NINGUNO</button>
+                        <button type="button" class="btn-primary" id="claro">CLARO</button>
+                        <button type="button" class="btn-primary" id="oscuro">OSCURO</button>
+                      </div> 
+                     
+                </div>
+                <div>
+                    <h3 class="title_Edits">ESPACIADO</h3>
+                    <input type="number" class="control-input" id="padding-input" aria-label="Espaciado" min="10" max="50"
+                    value="35">
+                    <h3 class="title_Edits">INTERLINEADO</h3>
+                    <select class="control-input" id="linespacing-input" aria-label="interlineado">
+                        <option value="0.8">0.8</option>
+                        <option value="1">1</option>
+                        <option value="1.2" selected>1.2</option>
+                        <option value="1.5">1.5</option>
+                        <option value="2">2</option>
+                        <option value="2.5">2.5</option>
+                    </select>
+                </div>  
+            </section>
+        </aside>
+    </div>
+    </div>
+   
+    <script src="./main.js"></script>
+</body>
+</html>
